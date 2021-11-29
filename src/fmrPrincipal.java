@@ -74,7 +74,9 @@ public class fmrPrincipal extends javax.swing.JFrame {
         jButton29.setText("CE");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(0, 204, 204));
 
+        btnUno.setBackground(new java.awt.Color(204, 0, 0));
         btnUno.setText("1");
         btnUno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,6 +84,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnDos.setBackground(new java.awt.Color(204, 0, 0));
         btnDos.setText("2");
         btnDos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -89,6 +92,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnTres.setBackground(new java.awt.Color(204, 0, 0));
         btnTres.setText("3");
         btnTres.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -96,6 +100,8 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnCuatro.setBackground(new java.awt.Color(204, 0, 0));
+        btnCuatro.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnCuatro.setText("4");
         btnCuatro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,6 +109,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnCinco.setBackground(new java.awt.Color(204, 0, 0));
         btnCinco.setText("5");
         btnCinco.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -110,6 +117,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnSeis.setBackground(new java.awt.Color(204, 0, 0));
         btnSeis.setText("6");
         btnSeis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -117,6 +125,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnSiete.setBackground(new java.awt.Color(204, 0, 0));
         btnSiete.setText("7");
         btnSiete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,6 +133,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnOcho.setBackground(new java.awt.Color(204, 0, 0));
         btnOcho.setText("8");
         btnOcho.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,6 +141,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnNueve.setBackground(new java.awt.Color(255, 0, 0));
         btnNueve.setText("9");
         btnNueve.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,6 +149,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnPunto.setBackground(new java.awt.Color(204, 0, 0));
         btnPunto.setText(".");
         btnPunto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -145,6 +157,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnIgual.setBackground(new java.awt.Color(204, 0, 0));
         btnIgual.setText("=");
         btnIgual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -152,6 +165,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnMas.setBackground(new java.awt.Color(0, 255, 0));
         btnMas.setText("+");
         btnMas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -159,6 +173,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnMenos.setBackground(new java.awt.Color(0, 255, 0));
         btnMenos.setText("-");
         btnMenos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -166,6 +181,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnMultiplicacion.setBackground(new java.awt.Color(0, 204, 0));
         btnMultiplicacion.setText("x");
         btnMultiplicacion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -173,6 +189,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnDivision.setBackground(new java.awt.Color(0, 255, 0));
         btnDivision.setText("/");
         btnDivision.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -180,6 +197,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnPorrcentaje.setBackground(new java.awt.Color(0, 255, 51));
         btnPorrcentaje.setText("%");
         btnPorrcentaje.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,6 +205,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnTAN.setBackground(new java.awt.Color(0, 255, 0));
         btnTAN.setText("TAN");
         btnTAN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,6 +213,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnCOS.setBackground(new java.awt.Color(0, 255, 0));
         btnCOS.setText("COS");
         btnCOS.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,6 +221,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnSEN.setBackground(new java.awt.Color(0, 255, 51));
         btnSEN.setText("SEN");
         btnSEN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -208,6 +229,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnLogaritmo.setBackground(new java.awt.Color(0, 204, 51));
         btnLogaritmo.setText("ln");
         btnLogaritmo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -215,6 +237,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnLogaritmo10.setBackground(new java.awt.Color(0, 255, 0));
         btnLogaritmo10.setText("log");
         btnLogaritmo10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -222,6 +245,8 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnRaiz.setBackground(new java.awt.Color(0, 204, 51));
+        btnRaiz.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnRaiz.setText("Raiz");
         btnRaiz.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -229,6 +254,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnPotencia.setBackground(new java.awt.Color(0, 204, 0));
         btnPotencia.setText("x^y");
         btnPotencia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -236,6 +262,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnAlCuadrado.setBackground(new java.awt.Color(0, 204, 0));
         btnAlCuadrado.setText("x^2");
         btnAlCuadrado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -243,6 +270,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnFactorial.setBackground(new java.awt.Color(0, 204, 0));
         btnFactorial.setText("x!");
         btnFactorial.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -250,6 +278,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnBorrarTodo.setBackground(new java.awt.Color(0, 204, 51));
         btnBorrarTodo.setText("C");
         btnBorrarTodo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -257,6 +286,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnBorrar.setBackground(new java.awt.Color(0, 204, 0));
         btnBorrar.setText("CE");
         btnBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -264,10 +294,15 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jScrollPane1.setBackground(new java.awt.Color(0, 0, 0));
+        jScrollPane1.setForeground(new java.awt.Color(0, 255, 255));
+
         txtDatos.setColumns(20);
+        txtDatos.setForeground(new java.awt.Color(0, 204, 204));
         txtDatos.setRows(5);
         jScrollPane1.setViewportView(txtDatos);
 
+        lbnBinario.setBackground(new java.awt.Color(0, 204, 204));
         lbnBinario.setText("Binario");
         lbnBinario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -275,6 +310,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        lbnDecimal.setBackground(new java.awt.Color(255, 255, 0));
         lbnDecimal.setText("Decimal");
         lbnDecimal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -282,6 +318,7 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        lbnHexadecimal.setBackground(new java.awt.Color(0, 204, 204));
         lbnHexadecimal.setText("Hexadecimal");
         lbnHexadecimal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -289,8 +326,10 @@ public class fmrPrincipal extends javax.swing.JFrame {
             }
         });
 
+        btnCero.setBackground(new java.awt.Color(204, 0, 0));
         btnCero.setText("0");
 
+        btnAutor.setBackground(new java.awt.Color(204, 0, 0));
         btnAutor.setText("autor");
         btnAutor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -303,38 +342,43 @@ public class fmrPrincipal extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(45, 45, 45)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(42, 42, 42))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(btnCero)
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(btnUno)
-                                    .addComponent(btnDos))
-                                .addComponent(btnTres))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(btnCuatro)
-                                .addComponent(btnCinco)
-                                .addComponent(btnSeis))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(btnSiete)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(btnPunto))
-                                .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(77, 77, 77)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(btnOcho)
-                                        .addComponent(btnNueve))
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(btnIgual))))
-                        .addComponent(btnAutor)))
-                .addGap(42, 42, 42)
+                                        .addComponent(btnUno)
+                                        .addComponent(btnDos))
+                                    .addComponent(btnTres))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnCuatro)
+                                    .addComponent(btnCinco)
+                                    .addComponent(btnSeis))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(btnSiete)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(btnPunto))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(btnOcho)
+                                            .addComponent(btnNueve))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(btnIgual))))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(81, 81, 81)
+                                .addComponent(btnCero)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAutor)))
+                        .addGap(42, 42, 42))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnMas)
@@ -352,26 +396,27 @@ public class fmrPrincipal extends javax.swing.JFrame {
                         .addComponent(btnCOS)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnSEN))
+                    .addComponent(lbnBinario)
+                    .addComponent(lbnDecimal)
+                    .addComponent(lbnHexadecimal)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                            .addComponent(btnLogaritmo)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(btnLogaritmo10)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(btnRaiz))
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                            .addComponent(btnAlCuadrado)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(btnPotencia)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnBorrarTodo)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(btnFactorial)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnBorrar))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnAlCuadrado)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnPotencia)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnBorrarTodo))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnLogaritmo)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnLogaritmo10)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(btnRaiz))
-                    .addComponent(lbnBinario)
-                    .addComponent(lbnDecimal)
-                    .addComponent(lbnHexadecimal))
-                .addContainerGap(100, Short.MAX_VALUE))
+                        .addComponent(btnBorrar)))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -396,12 +441,6 @@ public class fmrPrincipal extends javax.swing.JFrame {
                             .addComponent(btnMultiplicacion))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(layout.createSequentialGroup()
-                                    .addComponent(btnOcho)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(btnNueve))
-                                .addComponent(btnIgual, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(btnDivision)
@@ -410,38 +449,46 @@ public class fmrPrincipal extends javax.swing.JFrame {
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(btnTAN)
                                     .addComponent(btnCOS)
-                                    .addComponent(btnSEN)))))
+                                    .addComponent(btnSEN))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(btnLogaritmo)
+                                    .addComponent(btnLogaritmo10)
+                                    .addComponent(btnRaiz))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(btnAlCuadrado)
+                                    .addComponent(btnPotencia)
+                                    .addComponent(btnBorrarTodo)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(btnOcho)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(btnNueve))
+                                    .addComponent(btnIgual, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAutor, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnUno)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnDos))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnCuatro)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnCinco)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnSeis)
-                            .addComponent(btnTres))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnUno)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnDos))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnCuatro)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnCinco)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(btnSeis)
+                                    .addComponent(btnTres))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnCero)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnCero)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnLogaritmo)
-                            .addComponent(btnLogaritmo10)
-                            .addComponent(btnRaiz))
-                        .addGap(12, 12, 12)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnAlCuadrado)
-                            .addComponent(btnPotencia)
-                            .addComponent(btnBorrarTodo))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnFactorial)
-                            .addComponent(btnBorrar)
-                            .addComponent(btnAutor))))
-                .addContainerGap(144, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnFactorial)
+                    .addComponent(btnBorrar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
 
         pack();
