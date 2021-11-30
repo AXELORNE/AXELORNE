@@ -32,12 +32,16 @@ public class FrmAutor extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Nombre: Jose Axel Nuñes Ornelas ");
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setText("Nombre: Jose Axel Nuñez Ornelas ");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setText("Grupo y Semestre: 3 B");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel3.setText("Fecha: 27/11/21");
 
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel4.setText("Version: 1.0 ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -51,7 +55,7 @@ public class FrmAutor extends javax.swing.JFrame {
                     .addComponent(jLabel3)
                     .addComponent(jLabel2)
                     .addComponent(jLabel1))
-                .addContainerGap(181, Short.MAX_VALUE))
+                .addContainerGap(138, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -60,11 +64,11 @@ public class FrmAutor extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(13, 13, 13)
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel4)
-                .addContainerGap(196, Short.MAX_VALUE))
+                .addContainerGap(80, Short.MAX_VALUE))
         );
 
         pack();
